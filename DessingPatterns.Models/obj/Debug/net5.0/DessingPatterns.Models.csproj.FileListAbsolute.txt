@@ -1,0 +1,15 @@
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\bin\Debug\net5.0\DessingPatterns.Models.deps.json
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\bin\Debug\net5.0\DessingPatterns.Models.runtimeconfig.json
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\bin\Debug\net5.0\DessingPatterns.Models.runtimeconfig.dev.json
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\bin\Debug\net5.0\DessingPatterns.Models.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\bin\Debug\net5.0\ref\DessingPatterns.Models.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\bin\Debug\net5.0\DessingPatterns.Models.pdb
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.csprojAssemblyReference.cache
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.AssemblyInfoInputs.cache
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.AssemblyInfo.cs
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.csproj.CoreCompileInputs.cache
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\ref\DessingPatterns.Models.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.pdb
+C:\Users\ernes\source\repos\PAtronesMVC\DessingPatterns.Models\obj\Debug\net5.0\DessingPatterns.Models.genruntimeconfig.cache

@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAtronesMVC", "PAtronesMVC\PAtronesMVC.csproj", "{57FD2F72-3939-4CCA-9F76-B90ADDF215E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAtronesMVC", "PAtronesMVC\PAtronesMVC.csproj", "{57FD2F72-3939-4CCA-9F76-B90ADDF215E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{1C2DD550-F5D7-4199-BE5E-62EE8277FF0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Tools\Tools.csproj", "{1C2DD550-F5D7-4199-BE5E-62EE8277FF0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DessingPattern", "DessingPattern\DessingPattern.csproj", "{152006DC-04BC-4CC9-A57D-7538815C9989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DessingPattern", "DessingPattern\DessingPattern.csproj", "{152006DC-04BC-4CC9-A57D-7538815C9989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DessingsPatterns.Repository", "DessingsPatterns.Repository\DessingsPatterns.Repository.csproj", "{E092F371-B360-4AF9-8D07-D5C75222049D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DessingPatterns.Models", "DessingPatterns.Models\DessingPatterns.Models.csproj", "{DAE812C8-ACC5-4E8E-AA8E-0D201636387A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{152006DC-04BC-4CC9-A57D-7538815C9989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152006DC-04BC-4CC9-A57D-7538815C9989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152006DC-04BC-4CC9-A57D-7538815C9989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E092F371-B360-4AF9-8D07-D5C75222049D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E092F371-B360-4AF9-8D07-D5C75222049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E092F371-B360-4AF9-8D07-D5C75222049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E092F371-B360-4AF9-8D07-D5C75222049D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE812C8-ACC5-4E8E-AA8E-0D201636387A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE812C8-ACC5-4E8E-AA8E-0D201636387A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE812C8-ACC5-4E8E-AA8E-0D201636387A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE812C8-ACC5-4E8E-AA8E-0D201636387A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

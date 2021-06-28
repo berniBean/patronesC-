@@ -1,0 +1,28 @@
+﻿@using PAtronesMVC.Models.ViewModels
+@model IEnumerable<CursoViewModel>
+
+
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-primary" href="~/Escuela/Add">Nuevo curso</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <table class="table">
+            <tr>
+                <th>
+                    Nombre
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Titulo</td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

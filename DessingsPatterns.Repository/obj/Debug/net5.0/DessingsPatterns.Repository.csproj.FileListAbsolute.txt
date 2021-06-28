@@ -1,0 +1,15 @@
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\bin\Debug\net5.0\DessingsPatterns.Repository.deps.json
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\bin\Debug\net5.0\DessingsPatterns.Repository.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\bin\Debug\net5.0\ref\DessingsPatterns.Repository.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\bin\Debug\net5.0\DessingsPatterns.Repository.pdb
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.csprojAssemblyReference.cache
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.AssemblyInfoInputs.cache
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.AssemblyInfo.cs
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\ref\DessingsPatterns.Repository.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.pdb
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\bin\Debug\net5.0\DessingPatterns.Models.dll
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\bin\Debug\net5.0\DessingPatterns.Models.pdb
+C:\Users\ernes\source\repos\PAtronesMVC\DessingsPatterns.Repository\obj\Debug\net5.0\DessingsPatterns.Repository.csproj.CopyComplete

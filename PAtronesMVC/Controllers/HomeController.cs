@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DessingPatterns.Models.Models;
+using DessingsPatterns.Repository;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using PAtronesMVC.Configurations;
@@ -16,15 +18,20 @@ namespace PAtronesMVC.Controllers
     {
         private readonly IOptions<MyConfig> _config;
 
-        public HomeController(IOptions<MyConfig> config)
+        private readonly IRepository<Curso> _repository;
+
+        public HomeController(IOptions<MyConfig> config, IRepository<Curso> repository)
         {
             _config = config;
+            _repository = repository;
         }
 
         public IActionResult Index()
         {
             Log.GetInstance(_config.Value.PathLog).Save("Entró a index");
-            return View();
+
+            IEnumerable<Curso> cursos = _repository.Get();
+            return View("Index", cursos);
         }
 
         public IActionResult Privacy()
