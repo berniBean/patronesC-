@@ -31,6 +31,8 @@ namespace DessingsPatterns.Repository
 
         public TEntity Get(int id) => _dbSet.Find(id);
 
+        
+
         public void Update(TEntity data)
         {
             _dbSet.Attach(data);
@@ -38,5 +40,7 @@ namespace DessingsPatterns.Repository
         }
 
         public void save() => _context.SaveChanges();
+
+              
     }
 }

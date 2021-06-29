@@ -11,6 +11,7 @@ namespace DessingPattern
         static void Main(string[] args)
         {
 
+
             //using (var context = new cursosonlineContext())
             //{
             //    var cursoRepository = new Repository<Curso>(context);
@@ -40,31 +41,46 @@ namespace DessingPattern
             //    }
             //}
 
-            using(var context = new cursosonlineContext())
+            using (var context = new cursosonlineContext())
             {
-                var unitOfWork = new UnitOfWork(context);
+                var unitOfWorkGeneric = new UnitOfWorGeneric(context);
 
-                var curso = unitOfWork.Cursos;
+                var curso = unitOfWorkGeneric.Cursos;
 
-                var cursos = new Curso()
+                var resultado = curso.GetAsync(x => x.Titulo.Contains("curso modificado"));
+
+                foreach (var item in resultado.Result)
                 {
-                    Idcurso = 11,
-                    Titulo = "curso modificado",
-                    FechaPublicacion = new DateTime(2021,05,01)
-                };
-
-                curso.Update(cursos);
-
-                curso.save();
-
-
-                foreach (var item in curso.Get())
-                {
-                    Console.WriteLine(item.Titulo, item.FechaPublicacion);
+                    Console.WriteLine(item.Titulo);
                 }
+
             }
 
-            
+            //using(var context = new cursosonlineContext())
+            //{
+            //    var unitOfWork = new UnitOfWork(context);
+
+                //    var curso = unitOfWork.Cursos;
+
+                //    var cursos = new Curso()
+                //    {
+                //        Idcurso = 11,
+                //        Titulo = "curso modificado",
+                //        FechaPublicacion = new DateTime(2021,05,01)
+                //    };
+
+                //    curso.Update(cursos);
+
+                //    curso.save();
+
+
+                //    foreach (var item in curso.Get())
+                //    {
+                //        Console.WriteLine(item.Titulo, item.FechaPublicacion);
+                //    }
+                //}
+
+
 
 
 

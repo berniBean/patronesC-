@@ -19,7 +19,9 @@ namespace PAtronesMVC.Controllers
 
         public IActionResult Index()
         {
+            
             IEnumerable<CursoViewModel> cursos = from d in _unitOfWork.Cursos.Get()
+                                                 
                                                  select new CursoViewModel
                                                  {
                                                      Idcurso = d.Idcurso,

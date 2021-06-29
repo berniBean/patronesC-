@@ -8,7 +8,7 @@ namespace DessingsPatterns.Repository
 {
     public interface IRepository<TEntity>
     {
-        IEnumerable<TEntity> Get();
+        IEnumerable<TEntity> Get();        
         TEntity Get(int id);
         void Add(TEntity data);
         void Delete(int id);
